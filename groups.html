@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>UNIVERSITY OF GHANA COMPUTER SCIENCE DEPARTMENT WEBSITE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,600&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo 1.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="Course.html">COURSE</a></li>
+            <li><a href="resources.html">RESOURCES</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="events.html">EVENTS</a></li>
+            <li><a href="studentproject.html">STUDENT PROJECT</a></li>
+            <li><a href="groups.html">GROUPS</a></li>
+            <li><a href="lecturehalls.html">LECTURE HALLS</a></li>
+            <li><a href="contacts.html">CONTACTS</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <h1> GROUPS</h1>
+    </section>
+    <section class="blog">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/image 45.png" />
+          <h2>Welcome To COMPSSA</h2>
+          <p>
+            Step into the world of COMPSSA and explore a diverse range of events and activities designed to enrich your academic experience. From hackathons and coding competitions to workshops led by industry experts, our calendar is brimming with opportunities for skill development and networking. Dive into the details, register for upcoming events, and be part of the energetic COMPSSA community.
+          </p>
+          <br />
+          <p>
+            The essence of COMPSSA lies in its community of passionate individuals. Navigate through our member profiles to discover the talented minds shaping the future of computer science at the University of Ghana. Engage in discussions, share insights, and collaborate on projects that extend beyond the classroom. Our interactive forums provide a space to connect with like-minded peers, fostering an environment where ideas flourish and friendships thrive.
+            COMPSSA is dedicated to supporting your academic endeavors. Access a treasure trove of resources, including study guides, coding tutorials, and exclusive insights from seasoned professionals in the field. Whether you're a freshman navigating your first programming course or a senior working on a capstone project, our website is your go-to source for academic empowerment.
+          </p>
+          <br />
+          <p>
+            Become an active participant in shaping the future of COMPSSA. Explore leadership opportunities, join committees, and contribute to the growth of our association. Our website provides a portal for members to voice their ideas, propose initiatives, and actively engage in the decision-making processes that drive COMPSSA forward. Your journey with COMPSSA is not just about membership; it's about becoming a leader in the ever-evolving landscape of computer science.
+          </p>
+          <br />
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your comment"></textarea>
+              <button type="submit" class="hero-botton red-botton">
+                POST COMMENT
+              </button>
+            </form>
+            <div class="blog-right">
+              <img src="images/image 5.jpeg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!--footer-->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">About The Department</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <h3><b> and Email</b></h3>
+          <p>Email: dcs@ug.edu.gh</p>
+          <p>
+            Phone: +233 501 382 <br />
+            +233 559 145 698
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <p>Connect To Us On Social Media:</p>
+          <a href="#" target="_blank">Instagram</a>
+          <a href="#" target="_blank">Facebook</a>
+          <a href="#" target="_blank">Twitter</a>
+        </div>
+      </div>
+      <p>&copy; 2023 University. All rights reserved.</p>
+    </footer>
+    <!--JavaScript For Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
